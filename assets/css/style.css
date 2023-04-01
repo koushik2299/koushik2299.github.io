@@ -196,9 +196,18 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 100vh;
-  background: url("/assets/img/Background.jpg") top center;
-  background-size: contain; */
+  height:100vh;
+  background: url("/assets/img/bg2.jpg") top center;
+  
+   /* background-attachment: fixed; */
+   background-position: center center;
+   /* background-size: 1800px 1400px; */
+   
+   background-repeat: no-repeat;
+
+   
+  background-size: contain;
+  background-position-x: right;
   /* background-size: 150px;
   width: 300px;
   height: 300px; */
